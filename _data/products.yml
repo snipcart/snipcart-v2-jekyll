@@ -1,0 +1,17 @@
+- name: The Lean Startup
+  price: 29.99
+  slug: the-lean-startup
+  sku: TLS
+  image: http://d.gr-assets.com/books/1333576876l/10127019.jpg
+
+- name: How Google Works
+  price: 20.99
+  slug: how-google-works
+  sku: HGW
+  image: http://d.gr-assets.com/books/1422538855l/23158207.jpg
+
+- name: Rework Change the way you work forever
+  price: 39.99
+  slug: rework
+  sku: SW
+  image: http://d.gr-assets.com/books/1391275636l/6732019.jpg

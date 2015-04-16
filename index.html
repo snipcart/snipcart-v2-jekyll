@@ -1,0 +1,29 @@
+---
+layout: default
+title: Books
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Books</h1>
+
+  <ul class="products-list">
+    {% for product in site.data.products %}
+      <li>
+        <img src="{{ product.image }}" alt="{{ product.name }}" class="thumbnail"/>
+
+        {{ product.name }}
+
+        <button class="snipcart-add-item"
+          data-item-name="{{product.name}}"
+          data-item-id="{{product.sku}}"
+          data-item-image="{{product.image}}"
+          data-item-url="/"
+          data-item-price="{{product.price}}">
+          Buy it for {{product.price}} $
+        </button>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>
