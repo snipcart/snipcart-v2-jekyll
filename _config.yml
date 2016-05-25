@@ -1,14 +1,15 @@
 # Site settings
 title: Jekyll shop powered by Snipcart
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+email: contact@snipcart.com
+description: Here's a quick demo showing the integration between Snipcart and Jekyll! We hope you like it.
 baseurl: "/snipcart-jekyll" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: Snipcart
+github_username:  Snipcart
+api_key: NjEyMmVmNjktYWRhMi00ZjEyLThjYTctNzNiMTY4NTNjODA0
 
 # Build settings
 markdown: kramdown
+collections:
+  products:
+    output: true

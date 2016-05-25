@@ -8,7 +8,61 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
+.snipcart-add-item{
+  background-color: #3F51B5;
+  font-size: 18px;
+  color: white;
+  border: 0px;
+  border-radius: 3%;
+}
 
+.snipcart-add-item:hover{
+  box-shadow: 0px 3px 5px #888888;
+}
+
+.snipcart-add-item:active{
+  box-shadow: 0 0 0 0;
+}
+
+.product-description{
+  width: 400px;
+  padding: 25px;
+  margin: 25px;
+  background-color: #CFD8DC;
+  font-size: 20px;
+}
+
+.product-details{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.products{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.product{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 35px;
+}
+
+.product:hover{
+  background-color: #CFD8DC;
+}
+
+
+button{
+  font-family: $base-font-family;
+  font-size: 17px;
+}
 
 /**
  * Basic styling
@@ -205,5 +259,5 @@ pre {
 
 
 .thumbnail {
-  width: 150px;
+  width: 200px;
 }
