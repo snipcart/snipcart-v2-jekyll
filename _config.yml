@@ -6,7 +6,7 @@ baseurl: "/snipcart-jekyll-integration" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: Snipcart
 github_username:  Snipcart
-api_key: NjEyMmVmNjktYWRhMi00ZjEyLThjYTctNzNiMTY4NTNjODA0
+api_key: YjdiNWIyOTUtZTIyMy00MWMwLTkwNDUtMzI1M2M2NTgxYjE0
 
 # Build settings
 markdown: kramdown
