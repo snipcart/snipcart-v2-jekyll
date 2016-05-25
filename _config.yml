@@ -1,6 +1,6 @@
 # Site settings
 title: Jekyll shop powered by Snipcart
-email: contact@snipcart.com
+email: geeks@snipcart.com
 description: Here's a quick demo showing the integration between Snipcart and Jekyll. We hope you like it!
 baseurl: "/snipcart-jekyll-integration" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
