@@ -1,8 +1,10 @@
 <div class="product">
+
   <a class="product" href="{{ site.baseurl }}{{ product.url }}">
     <img src="{{ product.image }}" alt="{{ product.name }}" class="thumbnail"/>
     <p>{{ product.name }}</p>
   </a>
+
   <button class="snipcart-add-item"
     data-item-name="{{ product.name }}"
     data-item-id="{{ product.sku }}"
