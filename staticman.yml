@@ -1,9 +1,9 @@
 reviews:
-  allowedFields: ["name", "message", "review", "slug"]
+  allowedFields: ["name", "message", "review", "product"]
   branch: "gh-pages"
   commitMessage: "Add Review from {fields.name}"
 
-  filename: "review-{fields.slug}-{@id}"
+  filename: "review-{fields.product}-{@id}"
   format: "yaml"
 
   generatedFields:
@@ -16,5 +16,5 @@ reviews:
 
   name: "DEMO: snipcart-jekyll-integration"
   path: "_data/reviews"
-  requiredFields: ["name", "review", "slug"]
+  requiredFields: ["name", "review", "product"]
 

@@ -27,7 +27,7 @@ head:
   {% assign reviewCount = reviews | size %}
   <h3>Reviews {% if reviewCount > 0 %} ({{ reviewCount }}) {% endif %}</h3>
   <form method="POST" action="https://api.staticman.net/v2/entry/snipcart/snipcart-jekyll-integration/gh-pages/reviews">
-    <input name="fields[slug]" type="hidden" value="{{ page.slug }}" />
+    <input name="fields[product]" type="hidden" value="{{ page.slug }}" />
     <input name="options[redirect]" type="hidden" value="{{site.url}}{{site.baseurl}}{{ page.url }}" />
     
     <h4>Add a review</h4>
@@ -37,7 +37,7 @@ head:
     <p><button type="submit">Save review</button></p>
   </form>
   <ul>
-    {% for review in reviews %}
+    {% for review in site.data.reviews %}
     <li>
       {{review.review}} / 5 by {{ review.name }} on {{ review.date | date: '%B %d, %Y' }}
     </li>
