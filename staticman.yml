@@ -17,3 +17,4 @@ reviews:
   name: "DEMO: snipcart-jekyll-integration"
   path: "_data/reviews"
   requiredFields: ["name", "review", "slug"]
+
