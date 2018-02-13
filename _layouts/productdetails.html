@@ -28,10 +28,13 @@ head:
   <h3>Reviews {% if reviewCount > 0 %} ({{ reviewCount }}) {% endif %}</h3>
   <form method="POST" action="https://api.staticman.net/v2/entry/snipcart/snipcart-jekyll-integration/gh-pages/reviews">
     <input name="options[slug]" type="hidden" value="{{ page.slug }}" />
+    <input name="options[redirect]" type="hidden" value="{{site.url}}{{site.baseurl}}{{ page.url }}" />
+    
     <h4>Add a review</h4>
     <p><label>Your name: <input type="text" name="fields[name]" /></label></p>
     <p><label>Review: <input type="text" name="fields[review]" /></label></p>
     <p><label>Comment: <input type="text" name="fields[message]" /></label></p>
+    <p><button type="submit">Save review</button></p>
   </form>
   <ul>
     {% for review in reviews %}
