@@ -37,11 +37,18 @@ dl, dd, ol, ul, figure {
   font-size: 20px;
 }
 
-.product-details{
+.product-details, .product-reviews{
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+.product-reviews{
+  flex-direction: column;
+  h3 {
+    font-weight: bold;
+  }
 }
 
 .products{
