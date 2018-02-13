@@ -22,3 +22,15 @@ head:
     </button>
   </div>
 </div>
+<div class="product-reviews">
+  <form method="POST" action="https://api.staticman.net/v2/entry/snipcart/snipcart-jekyll-integration/gh-pages/reviews">
+  </form>
+  {% assign reviews = site.data.reviews | where:'slug',page.slug %}
+  <h3>Reviews</h3>
+  <ul>
+    {% for review in reviews %}
+    <li>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

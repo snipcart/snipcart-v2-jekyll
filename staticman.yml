@@ -1,0 +1,19 @@
+reviews:
+  allowedFields: ["name", "message", review]
+  branch: "gh-pages"
+  commitMessage: "Add Review from {fields.name}"
+
+  filename: "review-{option.slug}-{@id}"
+  format: "yaml"
+
+  generatedFields:
+    date:
+      type: date
+      options:
+        format: "iso8601"
+
+  moderation: true
+
+  name: "DEMO: snipcart-jekyll-integration"
+  path: "_data/reviews/{options.slug}"
+  requiredFields: ["name", "review"]
