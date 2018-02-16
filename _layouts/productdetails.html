@@ -32,8 +32,8 @@ head:
 
   <h3>Reviews
     {% if reviewCount > 0 %}
-      {% assign sum = sum | divide:reviewCount %}
-      (Average: {{ sum }})
+      {% assign sum = sum | divided_by:reviewCount %}
+      (Average: {{ sum | round: 1 }})
     {% endif %}
   </h3>
   <form method="POST"
