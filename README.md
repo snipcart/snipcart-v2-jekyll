@@ -1,15 +1,9 @@
-# Jekyll Tutorial: Static site e-commerce with Snipcart
+# Adding a shopping cart to your static Jekyll site (Snipcart v2.0)
 
-![jekyll-snipcart](https://snipcart.com/media/204093/snipcart-jekyll.png)
+This repo hosts the code for a working version of a Jekyll-built, Snipcart-powered e-commerce site.
 
-Static website development is becoming a developer's favorite: it's cheap, fast, simple and effective. With the right tools, it's also totally functional. And all of that, of course, without getting lost in templates or having to install and update a CMS.
+Please note that it uses Snipcart's v2.0.
 
-By using our HTML/JS-based shopping cart, developers can successfully handle the e-commerce aspect of a static site. I'll show you how to integrate a shopping cart to your static site using Jekyll.
+[Check out this repo](https://github.com/snipcart/snipcart-jekyll) for an example with our latest version, v3.0.
 
-This repo host the demo code for an e-commerce static site with Snipcart & Jekyll.
-
-> [Read the full blog post](https://snipcart.com/blog/static-site-e-commerce-part-2-integrating-snipcart-with-jekyll)
-
-> [Check out the live demo site](http://snipcart.github.io/snipcart-jekyll-integration/)
-
-Enjoy folks!
+> [Try the demo](http://snipcart.github.io/snipcart-jekyll-integration/)
